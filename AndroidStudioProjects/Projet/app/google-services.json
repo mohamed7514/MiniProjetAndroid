@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11349915605",
+    "firebase_url": "https://examentp-142ed-default-rtdb.firebaseio.com",
+    "project_id": "examentp-142ed",
+    "storage_bucket": "examentp-142ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11349915605:android:9ad122709e7f9205106f5c",
+        "android_client_info": {
+          "package_name": "com.example.examentp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11349915605-0mobegfe5vfcr6hd3km1cqdq3aola199.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbUsYLxUwjqf2Nz_G6kcg7mnBbBMWuXy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11349915605-0mobegfe5vfcr6hd3km1cqdq3aola199.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        
+        
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/img1"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@mipmap/ic_launcher"
+
+           app:civ_border_width="2dp"
+           app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Film Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/cinematext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cinema Name"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@+id/nametext"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/datetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date "
+            android:textSize="25sp"
+
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@+id/cinematext"
+            android:layout_marginLeft="10dp"
+            />
+    <LinearLayout
+        android:layout_below="@+id/datetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
